@@ -4,10 +4,6 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
-@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
-
-
-
 body a{
     transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -76,10 +72,10 @@ body{
   font-family: 'Lobster', cursive;
   text-transform: capitalize;
   text-decoration: none;
-  
-  color:darkgreen;
+  color: #fff;
   text-align: center;
   margin-bottom: 0.5em;
+  color:darkgreen;
 }
 .logo span {
   font-size: 0.6em;
@@ -115,8 +111,8 @@ p.banner-center {
   text-align: center;
   width: 66%;
   margin: 0em auto 0;
-  color:darkgreen;
-  font-size: 2.6em;
+  color: #fff;
+  font-size: 1.2em;
   font-weight: 300;
   letter-spacing: 1px;
   padding: 6em 0 0;
@@ -126,7 +122,7 @@ p.banner-center {
 }
 .banner-grids {
   position: absolute;
-  top: 50px;
+  margin-top: -120px;
   left: 0;
   width: 100%;
 }
@@ -167,7 +163,6 @@ a.top-icon {
 	font-size: 3em;
 	text-transform: capitalize;
 	color:#524E4E;
-  /*Queda oculto*/
 	font-weight: 300;
 	margin-bottom: 0.5em;
 }
@@ -176,7 +171,7 @@ a.top-icon {
 	color: #555;
 }
 .about-grids {
-  margin-top: 11em;
+  margin-top: 5em;
 }
 .about-grid h4 {
 	font-size: 1.5em;
@@ -376,15 +371,14 @@ position:relative;
 }
 .testimonial-header p {
 	font-size: 1.2em;
-	color: rgb(238, 238, 238);
+	color: #eee;
 }
 .testmonial-text p {
   font-size: 1em;
   line-height: 1.8em;
-  color: rgb(255, 255, 255);
+  color: #fff;
   margin-bottom:0.5em;
   background: rgba(51,51,51,0.5);
-
 }
 .testmonial-text h4{
 font-size: 1.5em;
@@ -603,8 +597,7 @@ font-size: 1.5em;
 /*-- responsive-design --*/
 @media only screen and (max-width:1024px) {
 .logo a {
-  font-family: 'Lobster', cursive;
-  font-size: 4em;
+ font-size: 4em;
 }
 .top-menu {
   width: 80%;
@@ -781,7 +774,6 @@ font-size: 1.1em;
  min-height: 600px;
 }
 .logo a {
-  font-family: 'Lobster', cursive;
   font-size: 3.5em;
 }
 p.banner-center {
@@ -790,6 +782,7 @@ p.banner-center {
 }
 .banner-grids {
    top: 85px;
+   
 }
 .left-grid {
   float: left;
@@ -1003,34 +996,32 @@ p.banner-center {
 }
 }
 @media only screen and (max-width: 640px){
-/*smarphones*/
-  .header {
+  /*smarphones*/
+.header {
   min-height: 707px;
-  margin-top: 250px;
-  }
+}
 .logo a {
-  font-family: 'Lobster', cursive;
-  font-size: 2.0em;
+  font-size: 2em;
+  overflow: hidden;
   width: 240px;
   height: 240px;
-  overflow: hidden;
-  margin-top: -350px;
   margin-left: -50px;
-  
-  }
+  margin-top: -140px;
+}
+
 .logo {
   margin: 0 auto;
   width: 30%;
 }
 .top-menu{
-margin-top: -150px;
-}
-.banner-grids{
-margin-top: 150px;
-}
-.about-grids{
-  margin-top: 90px;
-}
+  margin-top: -220px;
+  }
+  .banner-grids{
+    margin-top: 100px;
+  }
+  .about-header h3{
+    margin-top: -210px;
+  } 
 
 .right-grid h3 {
   font-size: 1.5em;
@@ -1055,7 +1046,6 @@ margin-top: 150px;
 p.banner-center {
   font-size: 0.96em;
   padding: 1em 0 0;
-  margin-top: 250px;
 }
 .left-grid img {
   min-height: 0px;
@@ -1185,7 +1175,6 @@ p.banner-center {
   margin: 0px 0;
 }
 .logo a {
-  font-family: 'Lobster', cursive;
   font-size: 2.5em;
 }
 .logo {
@@ -1405,7 +1394,6 @@ p.banner-center {
   width: 58%;
 }
 .logo a {
-  font-family: 'Lobster', cursive;
   font-size: 2em;
 }
 p.banner-center {
