@@ -999,6 +999,7 @@ p.banner-center {
   /*smarphones*/
 .header {
   min-height: 707px;
+  margin-top: 0px;
 }
 .logo a {
   font-size: 2em;
@@ -1006,7 +1007,7 @@ p.banner-center {
   width: 240px;
   height: 240px;
   margin-left: -50px;
-  margin-top: -140px;
+  margin-top:-100px;
 }
 
 .logo {
@@ -1014,10 +1015,10 @@ p.banner-center {
   width: 30%;
 }
 .top-menu{
-  margin-top: -220px;
+  margin-top: -50px;
   }
   .banner-grids{
-    margin-top: 100px;
+    margin-top: 10px;
   }
   .about-header h3{
     margin-top: -210px;
