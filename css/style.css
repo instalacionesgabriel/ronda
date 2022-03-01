@@ -4,6 +4,10 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+
+
+
 body a{
     transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -83,7 +87,7 @@ body{
 }
 .top-menu{
 text-align:center;
-  border-top: 2px solid #F7F5F5;
+  border-top: 2px solid #a53737;
     width: 71%;
   margin: 0 auto;
 }
@@ -95,7 +99,7 @@ text-align:center;
 .top-menu ul li a {
   font-size: 1.3em;
   text-decoration: none;
-  color: rgb(175, 175, 138);
+  color: rgb(88, 22, 150);
   font-family: 'Droid Sans', sans-serif;
 }
 .top-menu ul li a:hover {
@@ -372,13 +376,15 @@ position:relative;
 }
 .testimonial-header p {
 	font-size: 1.2em;
-	color: #eee;
+	color: rgb(238, 238, 238);
 }
 .testmonial-text p {
   font-size: 1em;
   line-height: 1.8em;
-  color: #fff;
+  color: rgb(255, 255, 255);
   margin-bottom:0.5em;
+  background: rgba(51,51,51,0.5);
+
 }
 .testmonial-text h4{
 font-size: 1.5em;
@@ -387,6 +393,7 @@ font-size: 1.5em;
   font-weight: 500;
   text-align:center;
     padding-top: 1em;
+    background: rgba(51,51,51,0.5);
   }
 .test-monials {
   margin-top: 5em;
@@ -596,7 +603,8 @@ font-size: 1.5em;
 /*-- responsive-design --*/
 @media only screen and (max-width:1024px) {
 .logo a {
- font-size: 4em;
+  font-family: 'Lobster', cursive;
+  font-size: 4em;
 }
 .top-menu {
   width: 80%;
@@ -773,6 +781,7 @@ font-size: 1.1em;
  min-height: 600px;
 }
 .logo a {
+  font-family: 'Lobster', cursive;
   font-size: 3.5em;
 }
 p.banner-center {
@@ -994,15 +1003,33 @@ p.banner-center {
 }
 }
 @media only screen and (max-width: 640px){
-.header {
+/*smarphones*/
+  .header {
   min-height: 707px;
-}
+  margin-top: 50px;
+  }
 .logo a {
-  font-size: 3em;
-}
+  font-family: 'Lobster', cursive;
+  font-size: 2.0em;
+  width: 240px;
+  height: 240px;
+  overflow: hidden;
+  margin-top: -180px;
+  margin-left: -50px;
+  
+  }
 .logo {
   margin: 0 auto;
   width: 30%;
+}
+.top-menu{
+margin-top: -210px;
+}
+.banner-grids{
+margin-top: 150px;
+}
+.about-grids{
+  margin-top: 90px;
 }
 
 .right-grid h3 {
@@ -1028,6 +1055,7 @@ p.banner-center {
 p.banner-center {
   font-size: 0.96em;
   padding: 1em 0 0;
+  margin-top: 250px;
 }
 .left-grid img {
   min-height: 0px;
@@ -1157,6 +1185,7 @@ p.banner-center {
   margin: 0px 0;
 }
 .logo a {
+  font-family: 'Lobster', cursive;
   font-size: 2.5em;
 }
 .logo {
@@ -1376,6 +1405,7 @@ p.banner-center {
   width: 58%;
 }
 .logo a {
+  font-family: 'Lobster', cursive;
   font-size: 2em;
 }
 p.banner-center {
