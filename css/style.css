@@ -1006,7 +1006,7 @@ p.banner-center {
   width: 240px;
   height: 240px;
   margin-left: -50px;
-  margin-top: -100px;
+  margin-top: -120px;
 }
 
 .logo {
@@ -1014,7 +1014,7 @@ p.banner-center {
   width: 30%;
 }
 .top-menu{
-  margin-top: -220px;
+  margin-top: -180px;
   }
   .banner-grids{
     margin-top: 100px;
