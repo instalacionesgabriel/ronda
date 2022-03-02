@@ -596,7 +596,14 @@ font-size: 1.5em;
 }
 /*-- responsive-design --*/
 @media only screen and (max-width:1024px) {
-.logo a {
+  .new-text{
+    margin-left: 1px;
+  }
+  .banner-grids{
+    margin-top: -50px;
+  }
+  
+  .logo a {
  font-size: 4em;
 }
 .top-menu {
@@ -1023,6 +1030,10 @@ p.banner-center {
   
   .about-header h3{
     margin-top: -100px;
+  }
+  .new-text{
+    margin-left: 1px;
+
   }
 .right-grid h3 {
   font-size: 1.5em;
