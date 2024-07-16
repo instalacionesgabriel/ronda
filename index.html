@@ -407,5 +407,79 @@
 				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 				</div>
 			</div>
-	</body>
+
+<!-- Cookie Consent -->
+<div id="cookieConsent">
+    <div id="closeCookieConsent">×</div>
+    Este sitio web utiliza cookies para garantizar que obtengas la mejor experiencia en nuestro sitio web. 
+    <a href="politica-cookies.html" target="_blank">Leer más</a>
+    <div class="cookieConsentButtons">
+        <button id="acceptCookies">Aceptar</button>
+        <button id="rejectCookies">Rechazar</button>
+    </div>
+</div>
+
+<style>
+#cookieConsent {
+    background: #2b2b2b;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    display: none;
+    text-align: center;
+}
+#cookieConsent a {
+    color: #ffa500;
+    text-decoration: underline;
+}
+#cookieConsent button {
+    background: #ffa500;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+}
+#closeCookieConsent {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var consent = localStorage.getItem('cookieConsent');
+    if (!consent) {
+        document.getElementById('cookieConsent').style.display = 'block';
+    }
+
+    document.getElementById('acceptCookies').addEventListener('click', function() {
+        localStorage.setItem('cookieConsent', 'accepted');
+        document.getElementById('cookieConsent').style.display = 'none';
+    });
+
+    document.getElementById('rejectCookies').addEventListener('click', function() {
+        localStorage.setItem('cookieConsent', 'rejected');
+        document.getElementById('cookieConsent').style.display = 'none';
+    });
+
+    document.getElementById('closeCookieConsent').addEventListener('click', function() {
+        document.getElementById('cookieConsent').style.display = 'none';
+    });
+});
+</script>
+
+
+
+
+
+
+
+</body>
 </html> 
